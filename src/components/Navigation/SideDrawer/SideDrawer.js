@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../Logo/Logo';
+import profile from  '../../../assets/img/profile/profileog.png'
 import NavigationItems from '../NavigationItems/NavigationItems';
 import'./SideDrawer.css';
 import Backdrop from '../../UI/Backdrop/Backdrop';
@@ -16,8 +16,9 @@ const sideDrawer = ( props ) => {
               
       <Backdrop show ={props.open} clicked= {props.closed} />  
             <div className = {attachedClasses.join(' ')}>
-                    <Logo height='11%'/>
-                   
+                       <div className="profile">
+                                <img src={profile} alt="" className="img-fluid rounded-circle" />
+                   </div>
                     
                 <nav>
                     <NavigationItems clicked= {props.closed} />

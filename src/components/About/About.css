@@ -1,0 +1,7 @@
+.about-me {
+  width: 100%;
+  flex-wrap: wrap;
+  height: 600px;
+  padding: 0 40px;
+  background-color: rgba(255, 0, 0, 0.164);
+}

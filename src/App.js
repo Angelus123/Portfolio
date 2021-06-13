@@ -34,9 +34,9 @@ class App extends Component {
        
                 <Layout>
                     <Switch>
-                       
-                        <Route path="/home" exact component ={Main} />
-                        <Redirect from ="/" to="home" />
+                         
+                        <Route path="/" exact component ={Main} />
+                     
                     </Switch>
                  
                 </Layout>
