@@ -27,13 +27,19 @@ class BuggerBuilder extends Component{
 <Header />
 
                 {/* <!-- ======= Hero Section ======= --> */}
-                            <Hello /> {/*??? */}
+                <section id="hero" >
+                     <Hello /> 
+                </section>
+                
+                           
                 {/* <!-- End Hero -- > */}
 
                     <main id="main">
 
 {/* <!-- ======= About Section ======= --> */}
-                   <About />
+            <section id="about" >
+                <About />
+            </section>
 {/* <!-- End About Section --> */}
 
 {/* <!-- ======= Facts Section ======= --> */}

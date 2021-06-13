@@ -1,4 +1,5 @@
 import React from'react'
+import './Header.css'
 import profile from  '../../assets/img/profile/profileog.png'
 import Aux from '../../hoc/Auxi/Auxilliary'
 const header = (props) =>{
@@ -12,7 +13,7 @@ const header = (props) =>{
 
                             <div className="profile">
                                 <img src={profile} alt="" className="img-fluid rounded-circle" />
-                                <h1 className="text-light"><a href="index.html">IZERE Ange Felix</a></h1>
+                                <h1 className="text-header"><a href="index.html">Angelus123</a></h1>
                                 <div className="social-links mt-3 text-center">
                                     <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
                                     <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
@@ -25,7 +26,7 @@ const header = (props) =>{
 
                             <nav id="navbar" className="nav-menu navbar">
                                 <ul>
-                                <li><a href="#hero" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></a></li>
+                                <li><a href="#hero" className="nav-link scrollto"><i className="bx bx-home"></i> <span>Home</span></a></li>
                                 <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></a></li>
                                 <li><a href="#resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Resume</span></a></li>
                                 <li><a href="#portfolio" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>Portfolio</span></a></li>
